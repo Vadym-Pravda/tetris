@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>TETRIS</title>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="game">
+            <div class="game-over">
+                <div>
+                    <h2>Your result</h2>
+                    <div>Score:
+                        <span class="result">0</span>
+                    </div>
+                    <div>Time:
+                        <span class="time">00:00</span>
+                        sec.
+                    </div>
+                    <div>Level speed:
+                        <span class="max-speed">1</span>
+                    </div>
+                </div>
+                <h2>records:</h2>
+                <div class="records-container">
+                </div>
+            </div>
+            <div class="tetris">
+            </div>
+
+        </div>
+        <div class="panel">
+            <img class="logo" src="./img/tetris.png" alt="tetris">
+            <div>
+                <h3>Next Tetramino</h3>
+                <div class="next-tetromino">
+                </div>
+            </div>
+
+            <div class="status">
+                <h3>Status</h3>
+                <div>Score:
+                    <span class="score">0</span>
+                </div>
+                <div>Time:
+                    <span class="timer">00:00</span>
+                    sec.
+                </div>
+                <div>Level speed:
+                    <span class="speed">1</span>
+                </div>
+            </div>
+            <div class="control-btn-panel">
+                <div class="btn pause">&#9199;&#65039;</div>
+                <div class="btn restart">&#128260</div>
+            </div>
+        </div>
+
+        <div class="control-btn-game">
+            <div class="btn" data-action="left">&#9664;&#65039;</div>
+            <div class="btn" data-action="rotate">&#128316;</div>
+            <div class="btn" data-action="drop">&#9196;</div>
+            <div class="btn" data-action="down">&#128317;</div>
+            <div class="btn" data-action="right">&#9654;&#65039;</div>
+        </div>
+
+    </div>
+
+</body>
+<script src="./js/index.js"></script>
+
+</html>
